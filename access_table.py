@@ -14,5 +14,5 @@ partial_rows = table.read_rows(filter_=row_filter)
 for row in partial_rows:
     if row.row_key.decode('utf-8') == '191':
       for column_family_id, columns in row.cells.items():
-        print('-----------')\n",
-        print(column_family_id)\n",
+        print('-----------')
+        print(column_family_id)
